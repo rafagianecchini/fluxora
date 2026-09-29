@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏭 Fluxora 
 
-## Getting Started
+A **Fluxora** é uma plataforma SaaS voltada para a gestão e controle inteligente de estoques de matérias-primas na Indústria 4.0. O sistema permite acompanhar volumes disponíveis, identificar materiais em falta em tempo real, prever rupturas na linha de produção e visualizar indicadores operacionais consolidados.
 
-First, run the development server:
+---
 
+## 🚀 Sobre o Projeto
+
+Este projeto consiste em uma aplicação web totalmente *frontend* (dados em memória e estado local) desenvolvida com **Next.js**, **Tailwind CSS** e componentes acessíveis da biblioteca **shadcn/ui**.
+
+A aplicação está dividida em duas frentes integradas no mesmo projeto:
+
+1. **Home Pública (`/`)**: Landing page de aquisição de clientes e captação de leads.
+2. **Demonstração Interativa (`/demo`)**: Dashboard interativo com gráficos, tabela gerenciável, busca, filtros e modais de movimentação de insumos.
+
+---
+
+## 💻 Como Inicializar e Rodar o Projeto
+
+Siga os passos abaixo para clonar, instalar as dependências e executar o projeto no seu ambiente local:
+
+### 1. Pré-requisitos
+Certifique-se de ter o **Node.js** (versão 18.0.0 ou superior) instalado em sua máquina.
+
+### 2. Instalação Completa dos Pacotes e Componentes UI
+
+Se você estiver configurando o projeto do zero, execute os comandos de instalação utilizados no projeto.
+
+#### A Instalação das dependências do Node:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm install
+npm install lucide-react recharts
+npm run dev;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
